@@ -1,0 +1,47 @@
+{
+    "name": "Identify",
+    "version": "1.0.0",
+    "description": "Custom Celo Composer project.",
+    "private": true,
+    "author": "Celo",
+    "license": "MIT",
+    "scripts": {
+        "react-app:dev": "yarn workspace @Identify/react-app dev",
+        "react-app:build": "yarn workspace @Identify/react-app build",
+        "react-app:start": "yarn workspace @Identify/react-app start",
+        "react-app:lint": "yarn workspace @Identify/react-app lint",
+        "hardhat:test": "yarn workspace @Identify/hardhat test",
+        "hardhat:test-local": "yarn workspace @Identify/hardhat test-local",
+        "hardhat:create-account": "yarn workspace @Identify/hardhat create-account",
+        "hardhat:accounts": "yarn workspace @Identify/hardhat accounts",
+        "hardhat:devchain": "yarn workspace @Identify/hardhat devchain",
+        "hardhat:deploy": "yarn workspace @Identify/hardhat deploy",
+        "hardhat:deploy-reset-watch": "yarn workspace @Identify/hardhat deploy-reset-watch",
+        "hardhat:watch": "yarn workspace @Identify/hardhat watch",
+        "hardhat:fork-mainnet": "yarn workspace @Identify/hardhat fork-mainnet",
+        "subgraphs:test": "yarn workspace @Identify/subgraphs test",
+        "subgraphs:get-abi": "yarn workspace @Identify/subgraphs get-abi"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/celo-org/celo-composer.git"
+    },
+    "bugs": {
+        "url": "https://github.com/celo-org/celo-composer/issues"
+    },
+    "homepage": "https://github.com/celo-org/celo-composer/blob/main/README.md",
+    "workspaces": [
+        "packages/*"
+    ],
+    "keywords": [
+        "celo-composer",
+        "celo"
+    ],
+    "dependencies": {
+        "@reduxjs/toolkit": "^1.9.5",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-redux": "^8.1.2",
+        "react-router-dom": "^6.15.0"
+    }
+}
