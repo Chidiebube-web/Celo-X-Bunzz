@@ -7,6 +7,7 @@ import "../styles/globals.css";
 import "@rainbow-me/rainbowkit/styles.css";
 import { publicProvider } from "wagmi/providers/public";
 import { Alfajores, Celo } from "@celo/rainbowkit-celo/chains";
+import '../index.css'
 
 const projectId = "da445382d168deaf563f95c7a035ef1a" as string; // get one at https://cloud.walletconnect.com/app
 
